@@ -624,3 +624,40 @@ button:hover {
         margin-top: 10px;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .columna-derecha,
+    .columna-izquierda {
+        width: 100%;
+    }
+
+    .columna-derecha h1 {
+        font-size: 24px;
+    }
+
+    .columna-derecha p {
+        font-size: 14px;
+    }
+
+    .grid-recetas {
+        grid-template-columns: 1fr;
+    }
+
+    .receta-destacada {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .columna-izquierda {
+        text-align: center;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+}
