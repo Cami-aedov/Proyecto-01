@@ -8,8 +8,9 @@
     </head>
     <body>
         <header>
-            <div class="logo">
-                <a href="/index.html"><img src="./assets/img/logo.png" /> </a>
+            <div>
+                <a class="logo" href="/index.html"><img
+                        src="./assets/img/logo.png" /> </a>
             </div>
             <nav>
                 <a href="/index.html">Inicio</a>
@@ -19,105 +20,102 @@
                 <a href="./pages/contacto.html">Contacto</a>
             </nav>
         </header>
-            
+
         <main>
+
             <section class="slider">
                 <img src="/assets/img/singluten.webp" alt="slider-sin-gluten"
                     class="slider-sin-gluten">
             </section>
 
-            <h1>Recetas de la Semana</h1>
-            <section class="carrisel-recetas">
-                <div class="box-receta">
-                    <img src="/assets/img/singluten.webp" alt="sin-gluten"
-                        class="sin-gluten-img">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Nostrum quaerat quasi dolore esse ad doloribus nesciunt
-                        eius repudiandae suscipit.
-                        Itaque earum rem consequatur facilis, repudiandae sit
-                        totam commodi non sed.</p>
-                    <button>Leer más</button>
+            <!--Recetas destacadas-->
+            <section class="recetas">
+
+                <div class="titulo">
+                    <h1>Recetas Destacadas</h1>
                 </div>
-                <div class="box-receta">
-                    <img src="/assets/img/singluten.webp" alt="sin-gluten"
-                        class="sin-gluten-img">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Nostrum quaerat quasi dolore esse ad doloribus nesciunt
-                        eius repudiandae suscipit.
-                        Itaque earum rem consequatur facilis, repudiandae sit
-                        totam commodi non sed.</p>
-                    <button>Leer más</button>
-                </div>
-                <div class="box-receta">
-                    <img src="/assets/img/singluten.webp" alt="sin-gluten"
-                        class="sin-gluten-img">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Nostrum quaerat quasi dolore esse ad doloribus nesciunt
-                        eius repudiandae suscipit.
-                        Itaque earum rem consequatur facilis, repudiandae sit
-                        totam commodi non sed.</p>
-                    <button>Leer más</button>
+                <div class="contenedor-recetas">
+                    <div class="card">
+                        <img src="/assets/img/singluten.webp" alt="Imagen 1">
+                        <h2>Título Uno</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer nec odio. Praesent libero. Sed cursus
+                            ante dapibus diam.</p>
+                        <a href="#" class="btn">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/img/singluten.webp" alt="Imagen 2">
+                        <h2>Título Dos</h2>
+                        <p>Curabitur blandit tempus porttitor. Duis mollis, est
+                            non commodo luctus, nisi erat porttitor ligula, eget
+                            lacinia odio sem nec elit.</p>
+                        <a href="#" class="btn">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/img/singluten.webp" alt="Imagen 3">
+                        <h2>Título Tres</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus.
+                            Maecenas sed diam eget risus varius blandit sit amet
+                            non magna.</p>
+                        <a href="#" class="btn">Leer más</a>
+                    </div>
                 </div>
 
             </section>
         </main>
 
+        <!-- Banner contato-->
         <section class="banner-contactanos">
 
             <h5>CONTACTANOS</h5>
-            <button class="boton-banner">boton</button>
+            <button class="boton-banner">¡Escríbenos!</button>
 
         </section>
 
+        <div class="espacio"></div>
+
+        <!--Footer-->
         <footer class="contenedor-footer">
             <div class="contenido-footer">
 
-                <div>
+                <!-- Logo -->
+                <div class="logo-container">
                     <img src="/assets/img/logo.png" alt="Logo"
                         class="logo-footer">
-
                 </div>
 
-                <div>
-                    <a href="https://www.facebook.com/"><img
-                            src="/assets/img/face-Photoroom.png" alt="Facebook"
-                            class="logo-social-footer"></a>
-                    <a href="https://www.instagram.com/"><img
-                            src="/assets/img/insta-Photoroom.png"
-                            alt="Instagram" class="logo-social-footer"></a>
-                    <a href="https://web.whatsapp.com"><img
-                            src="/assets/img/wsp-Photoroom.png" alt="WhatsApp"
-                            class="logo-social-footer"></a>
+                <!-- Redes Sociales -->
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="/assets/img/face-Photoroom.png" alt="Facebook"
+                            class="logo-social-footer">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="/assets/img/insta-Photoroom.png"
+                            alt="Instagram" class="logo-social-footer">
+                    </a>
+                    <a href="https://web.whatsapp.com" target="_blank">
+                        <img src="/assets/img/wsp-Photoroom.png" alt="WhatsApp"
+                            class="logo-social-footer">
+                    </a>
                 </div>
 
-                <table>
-                    <tr>
-                        <nav class="menu">
-                            <td>
-                                <li><a href="/pages/index.html">Inicio</li></a>
-                            </td>
-                            <td>
-                                <li><a
-                                        href="/pages/Nosotros.html">Nosotros</li></a>
-                            </td>
-                            <td>
-                                <li><a
-                                        href="/pages/Recetas.html">Recetas</li></a>
-                            </td>
-                            <td>
-                                <li><a href="/pages/Blog.html">Blog</li></a>
-                            </td>
-                            <td>
-                                <li><a
-                                        href="/pages/Contacto.html">Contacto</li></a>
-                            </td>
-                        </nav>
-                    </tr>
-                </table>
-                <div>
-                    <div>www.sitioweb.cl</div>
+                <!-- Menú de Navegación -->
+                <ul class="menu-footer">
+                    <li><a href="/pages/index.html">Inicio</a></li>
+                    <li><a href="/pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="/pages/recetas.html">Recetas</a></li>
+                    <li><a href="/pages/blog.html">Blog</a></li>
+                    <li><a href="/pages/contacto.html">Contacto</a></li>
+                </ul>
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    <p>www.sitioweb.cl</p>
                 </div>
+
             </div>
         </footer>
+
     </body>
 </html>
