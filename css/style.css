@@ -42,7 +42,7 @@ nav a:hover {
 
 /* Slider inicio */
 .slider-inicio {
-    background: url('/assets/img/slider-inicio.webp') no-repeat center center/cover;
+    background: url('./assets/img/slider-inicio.webp') no-repeat center center/cover;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -148,7 +148,7 @@ nav a:hover {
 /*Banner de contactanos*/
 
 .banner-contactanos {
-    background: url('/assets/img/banner_11zon.webp') no-repeat center center/cover;
+    background: url('./assets/img/banner_11zon.webp') no-repeat center center/cover;
     height: 300px;
     display: flex;
     flex-direction: column;
