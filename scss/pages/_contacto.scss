@@ -1,0 +1,89 @@
+/*Estilo formulario*/
+
+.formulario-contacto {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+
+/* Estilos del formulario */
+.formulario {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Contenedor de cada campo */
+.caja-formulario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* Etiquetas */
+.caja-formulario label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Campos de entrada */
+.caja-formulario input,
+.caja-formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+/* Efecto al enfocar */
+.caja-formulario input:focus,
+.caja-formulario textarea:focus {
+    border-color: #ff6600;
+    outline: none;
+}
+
+/* Botón de envío */
+button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #e55b00;
+}
+
+/* ***************************** */

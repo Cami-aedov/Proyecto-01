@@ -1,0 +1,51 @@
+/* Estilo pagina nosotros*/
+.nosotros {
+    background: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.contenedor-nosotros {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.columna-derecha {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+}
+
+.columna-derecha h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.columna-derecha p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.columna-izquierda {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-nosotros {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* *********************** */

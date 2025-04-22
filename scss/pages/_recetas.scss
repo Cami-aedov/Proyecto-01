@@ -1,0 +1,157 @@
+/* Estilo pagina receta*/
+
+/* Contenedor principal */
+.contenedor-receta-destacada {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Receta Destacada */
+
+.receta-destacada {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    max-width: 1000px;
+    border-radius: 60px;
+    border-top-left-radius: 0px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    gap: 30px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#receta-titulo {
+    text-align: center;
+}
+
+.contenido-receta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Columna Imagen */
+.columna-derecha {
+    flex: 1;
+    min-width: 280px;
+    text-align: center;
+}
+
+.img-receta {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Columna Texto */
+.columna-izquierda {
+    flex: 1;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-receta {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.texto-receta {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Botón */
+.boton-receta {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.boton-receta:hover {
+    background: #e55b00;
+}
+
+/* Estilo seccion recetas variadas*/
+.carrusel-recetas {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.carrusel-recetas h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grid de recetas */
+.grid-recetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo de cada receta */
+.box-receta {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.box-receta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.sin-gluten-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Texto recetas*/
+.box-receta p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Botón leer mas*/
+.box-receta button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.box-receta button:hover {
+    background: #e55b00;
+}
+
+/* ************************************* */
